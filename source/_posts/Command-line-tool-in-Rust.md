@@ -169,11 +169,4 @@ The value in _chosen_ tells which remote repo to open.
 
 These are all about `gitweb`. I have to admit the time and effort used for the Rust implementation are much higher than the equivalent Python implementation. But the final compiled executable is only about 1.5 MB in size with no extra dependencies. To me, this endeavor is well justified. I have also accumulated some useful patterns, such as invoking external commands and prompting for inputs, which will be useful for future projects.  
 
-
-
-
-
-
-
-
-
+_The source code of this project can be found in [github](https://github.com/wowmmichael/gitweb-rs)._
