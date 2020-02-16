@@ -1,6 +1,6 @@
 ---
 title: Command line tool in Rust
-date: 2020-02-02 17:09:13
+date: 2020-02-18 17:09:13
 tags: rust
 ---
 
