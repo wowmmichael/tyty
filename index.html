@@ -122,11 +122,12 @@
 <figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> hint = <span class="built_in">format!</span>(<span class="string">"Type choice (0 - &#123;&#125;)"</span>, options.len() - <span class="number">1</span>);</span><br><span class="line"><span class="keyword">let</span> parse = |s| &#123;</span><br><span class="line">    s.parse::&lt;<span class="built_in">usize</span>&gt;()</span><br><span class="line">        .map_err(|_| PromptInputError(<span class="built_in">String</span>::from(&amp;s)))</span><br><span class="line">        .and_then(|v| &#123;</span><br><span class="line">            <span class="keyword">if</span> v &lt; options.len() &#123;</span><br><span class="line">                <span class="literal">Ok</span>(v)</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="literal">Err</span>(PromptInputError(<span class="built_in">String</span>::from(&amp;s)))</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">let</span> chosen = prompt_value(hint, parse);</span><br></pre></td></tr></table></figure>
 <p>The value in <em>chosen</em> tells which remote repo to open.  </p>
 <h2 id="Conlusion"><a href="#Conlusion" class="headerlink" title="Conlusion"></a>Conlusion</h2><p>These are all about <code>gitweb</code>. I have to admit the time and effort used for the Rust implementation are much higher than the equivalent Python implementation. But the final compiled executable is only about 1.5 MB in size with no extra dependencies. To me, this endeavor is well justified. I have also accumulated some useful patterns, such as invoking external commands and prompting for inputs, which will be useful for future projects.  </p>
+<p><em>The source code of this project can be found in <a href="https://github.com/wowmmichael/gitweb-rs" target="_blank" rel="noopener">github</a>.</em></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://wowmmichael.github.io/tyty/2020/02/18/Command-line-tool-in-Rust/" data-id="ck6owx6gw00003pru7vz6gdge" class="article-share-link">Share</a>
+      <a data-url="https://wowmmichael.github.io/tyty/2020/02/18/Command-line-tool-in-Rust/" data-id="ck6owzp8b00000grq1bmwfvkk" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tyty/tags/rust/" rel="tag">rust</a></li></ul>
@@ -177,7 +178,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://wowmmichael.github.io/tyty/2020/02/01/hello-world/" data-id="ck6owx6h500013pruena8antj" class="article-share-link">Share</a>
+      <a data-url="https://wowmmichael.github.io/tyty/2020/02/01/hello-world/" data-id="ck6owzp8l00010grq2jszcj4e" class="article-share-link">Share</a>
       
       
     </footer>
