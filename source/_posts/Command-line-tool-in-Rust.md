@@ -6,7 +6,7 @@ tags: rust
 
 After reading the 'Programming Rust' book, I am tempted to write a small command-line tool in Rust to improve my Rust-literacy. This feels to be a feasible task for a beginner like me. In the past, I have written a few tools in Python. It is hard to share them with others because they require Python environments with specific packages installed. In contrast, Rust builds a single executable that packages all the dependencies and doesn't bloat in size. This is a definite win. 
 
-I chose the simplest one that just opens a URL in Chrome from the command line: `gitweb`. As the name suggests, this command will open the remote repository that is configured for the git project where the command is invoked. It's useful to submit a pull request in the browser right after a code push from the command line. This is how it looks like:
+I chose the simplest one, `gitweb`, which is a tool to open a URL in Chrome. As its name suggests, this command tries to open the webpage of the remote repository for the local git project. It's useful for navigating to the upstream project to submit pull requests. Here is a short video about what it does:
 
 {% video gitweb-demo.mp4 %}
 
