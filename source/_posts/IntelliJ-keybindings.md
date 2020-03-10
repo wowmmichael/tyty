@@ -74,3 +74,4 @@ I am a fan of using keyboard shortcuts as much as possible to achieve what I wan
 - `^M, K` : Main menu > Edit > Find > Unselect Occurence
 - `^M, S` : Main menu > Edit > Find > Move to Next Occurence
 
+_The latest settings can be found on [github](https://github.com/wowmmichael/settings)._
