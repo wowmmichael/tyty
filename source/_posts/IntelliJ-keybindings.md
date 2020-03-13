@@ -27,6 +27,7 @@ I am a fan of using keyboard shortcuts as much as possible to achieve what I wan
 - `^L, I` : Main menu > Navigate > Implementations
 - `^L, J` : Main menu > Edit > Emoji & Symbols
 - `^L, K` : Main menu > View > Recent Locations
+- `^L, N` : Main menu > Navigate > Jump to Navigation Bar
 - `^L, O` : Main menu > Navigate > Select in... (Open with... such as explorer)
 - `^L, P` : Others > Open Project Windows
 - `^L, R` : Main menu > Refactor > Refactor This...
