@@ -36,6 +36,14 @@ I am a fan of using keyboard shortcuts as much as possible to achieve what I wan
 - `^L, W` : Others > Switcher (List opened tabs)
 - `^L, X` : Main menu > Code > Unwrap/Remove...
 
+### Quick actions
+
+- `^Space, <-` : Main menu > Navigate > Back
+- `^Space, ->` : Main menu > Navigate > Forward
+- `^Space, ^Space` : Move caret to matching braces
+- `^Space, B` : Toggle bookmark
+- `^Space, ^B` : Toggle bookmark with mnemonic
+- `^Space, D` : Goto declaration or usage
 
 #### Actions
 
@@ -43,6 +51,8 @@ I am a fan of using keyboard shortcuts as much as possible to achieve what I wan
 - `^Q, E` : Main menu > View > Open in Browser
 - `^Q, F` : Main menu > Code > Reformat Code
 - `^Q, G` : Version Control Systems > Git
+- `^Q, Q` : Run context configuration (such as run test)
+- `^Q, ^Q` : Debug context configuration (such as debug test)
 - `^Q, R` : Main menu > Run > Run...
 - `^Q, ^R` : Main menu > Run > Debug...
 - `^Q, S` : Main menu > View > Quick Switch Scheme...
