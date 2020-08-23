@@ -10,7 +10,8 @@ I am a fan of using keyboard shortcuts as much as possible to achieve what I wan
 
 - `^H, A` : Main menu > View > Parameter Info
 - `^H, C` : Main menu > View > Context Info
-- `^H, D` : Main menu > View > Quick Documentation        
+- `^H, D` : Main menu > View > Quick Documentation
+- `^H, ^D` : Main menu > View > External documentation
 - `^H, I` : Main menu > View > Quick Definition           
 - `^H, M` : Main menu > Navigate > Method Hierarchy
 - `^H, P` : Main menu > Edit > Copy Path...
@@ -27,6 +28,7 @@ I am a fan of using keyboard shortcuts as much as possible to achieve what I wan
 - `^L, I` : Main menu > Navigate > Implementations
 - `^L, J` : Main menu > Edit > Emoji & Symbols
 - `^L, K` : Main menu > View > Recent Locations
+- `^L, L` : Main menu > View > Tool windows
 - `^L, N` : Main menu > Navigate > Jump to Navigation Bar
 - `^L, O` : Main menu > Navigate > Select in... (Open with... such as explorer)
 - `^L, P` : Others > Open Project Windows
@@ -44,10 +46,12 @@ I am a fan of using keyboard shortcuts as much as possible to achieve what I wan
 - `^Space, B` : Toggle bookmark
 - `^Space, ^B` : Toggle bookmark with mnemonic
 - `^Space, D` : Goto declaration or usage
+- `^Space, F` : Main menu > Edit > Find
+- `^Space, ^F` : Main menu > Edit > Find > Find in path
+- `^Space, R` : Main menu > Edit > Replace
 
 #### Actions
 
-- `^Q, B` : Main menu > Navigate > Bookmarks > Toggle Bookmarks with Mnemonic
 - `^Q, E` : Main menu > View > Open in Browser
 - `^Q, F` : Main menu > Code > Reformat Code
 - `^Q, G` : Version Control Systems > Git
