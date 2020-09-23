@@ -48,7 +48,10 @@ I am a fan of using keyboard shortcuts as much as possible to achieve what I wan
 - `^Space, D` : Goto declaration or usage
 - `^Space, F` : Main menu > Edit > Find
 - `^Space, ^F` : Main menu > Edit > Find > Find in path
+- `^Space, L` : Go to line / column
 - `^Space, R` : Main menu > Edit > Replace
+- `^Space, S` : Add to favourites
+
 
 #### Actions
 
